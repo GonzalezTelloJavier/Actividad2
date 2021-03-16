@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_GA1x0IX4Eeu5LMeW4uCwTg" name="Musico">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_GSNOoIX4Eeu5LMeW4uCwTg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_P6gloIX4Eeu5LMeW4uCwTg" name="clases.ito.poo">
+    <packagedElement xmi:type="uml:Class" xmi:id="_dcinQIX4Eeu5LMeW4uCwTg" name="ClasificacionComposicion">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_tJ_XkIX4Eeu5LMeW4uCwTg" name="titulo" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_vrUr4IX4Eeu5LMeW4uCwTg" name="duracion " visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_wXYgoIX4Eeu5LMeW4uCwTg" name="interpretequeSolicita" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6UbYkIX4Eeu5LMeW4uCwTg" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_w527kIX4Eeu5LMeW4uCwTg" name="Genero" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_xnbMMIX4Eeu5LMeW4uCwTg" name="fechaRegistro" visibility="private" type="_CuWbcIX6Eeu5LMeW4uCwTg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_yCGWAIX4Eeu5LMeW4uCwTg" name="fechaEstreno" visibility="private" type="_CuWbcIX6Eeu5LMeW4uCwTg"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_SyyvcIX6Eeu5LMeW4uCwTg" name="actualizaCompositor">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_pbR_QIX6Eeu5LMeW4uCwTg">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="__P1bQIX7Eeu5LMeW4uCwTg" name="MyApp"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_CuWbcIX6Eeu5LMeW4uCwTg" name="java.time.LocalDate"/>
+</uml:Model>
